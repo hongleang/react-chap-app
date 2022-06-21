@@ -1,9 +1,11 @@
+/* Need more research on database */
+
 import React from 'react'
 import { HiOutlinePencilAlt, HiOutlineSearch } from "react-icons/hi";
 
-import UsersMessagePreview from './UsersMessagePreview';
+// import UsersMessagePreview from './UsersMessagePreview';
 
-import { fake_users } from './data';
+// import { fake_users } from './data';
 
 export default function Sidebar() {
   const [searchTerm, setSearchTerm] = React.useState('');
@@ -30,9 +32,9 @@ export default function Sidebar() {
         />
       </div>
       <div className='flex flex-col items-center justify-between space-y-3 divide-y'>
-        {fake_users && fake_users.filter(filterByName).map(user => (
+        {/* {fake_users && fake_users.filter(filterByName).map(user => (
           <UsersMessagePreview key={`user-preiview-${user.id}`} user={user} />
-        ))}
+        ))} */}
       </div>
     </div>
   )

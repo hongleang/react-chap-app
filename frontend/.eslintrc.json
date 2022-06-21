@@ -1,7 +1,17 @@
 {
-    "extends": "react-app",
+    "extends": [
+        "eslint:recommended",
+        "plugin:react"
+    ],
     "parserOptions": {
         "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/jsx-uses-react": 1,
+        "react/jsx-uses-vars": 1
     },
     "env": {
         "es6": true

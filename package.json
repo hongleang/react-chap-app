@@ -1,0 +1,22 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongleang/react-chap-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hongleang/react-chap-app/issues"
+  },
+  "homepage": "https://github.com/hongleang/react-chap-app#readme",
+  "dependencies": {}
+}
